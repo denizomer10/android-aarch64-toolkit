@@ -1,0 +1,11 @@
+# Nothing is committed except sources. The actual SDK/toolchain lives in
+# ~/Android (or $TOOLKIT_ROOT), outside this repo.
+/build/
+/dist/
+*.deb
+*.zip
+*.tar.gz
+*.tgz
+__pycache__/
+*.pyc
+.env
